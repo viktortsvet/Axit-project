@@ -1,0 +1,26 @@
+.social {
+    min-height: 105px;
+    padding: 22px 0 22px 0;
+    &__title {
+        color: #333333;
+        font-family: "Open Sans";
+        font-size: 20px;
+        font-weight: 700;
+    }
+    &__descr {
+        color: #86878b;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 12px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img {
+            width: 634px;
+            height: 46px;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.navigation {
+    min-height: 72px;
+    padding: 23px 0 22px 0;
+    background: #000000;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__links {
+        display: flex;
+        justify-content: space-between;
+        width: 441px;
+        padding-left: 0;
+        list-style-type: none;
+    }
+    &__link {
+        color: rgba(255, 255, 255, 0.69);
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 600;
+        text-decoration: none;
+        &:hover {
+            color: rgba(255, 255, 255, 1);
+        }
+    }
+}

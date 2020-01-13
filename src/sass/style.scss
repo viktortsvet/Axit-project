@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+@import '../sass/navigation';
+@import '../sass/header';
+@import '../sass/social';
+@import '../sass/tabs';
+@import '../sass/sub';
+@import '../sass/standard';
+@import '../sass/_awesome';
+@import '../sass/pricing';
