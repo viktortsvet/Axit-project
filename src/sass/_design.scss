@@ -1,0 +1,49 @@
+.design {
+    min-height: 320px;
+    padding: 74px 0 63px 0;
+    background-color: #9a9a9a;
+    &__header {
+        color: #ffffff;
+        font-family: 'Raleway';
+        font-size: 36px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+        &:after {
+            content: '';
+            display: block;
+            margin: 0 auto;
+            margin-top: 26px;
+            width: 63px;
+            height: 2px;
+            background-color: #ffffff;
+        }
+    }
+    &__descr {
+        color: rgba(255, 255, 255, .80);
+        font-family: 'Raleway';
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        margin-top: 23px;
+    }
+    &__btn {
+        display: block;
+        margin: 0 auto;
+        margin-top: 33px;
+        width: 135px;
+        height: 42px;
+        border: 2px solid #ffffff;
+        background-color: inherit;
+        color: #ffffff;
+        font-family: "Open Sans Semibold";
+        font-size: 15px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: 0.5s all;
+        &:hover {
+            color: #ff8b38;
+            border-color: #ff8b38;
+        }
+    }
+}

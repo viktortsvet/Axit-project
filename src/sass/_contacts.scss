@@ -1,0 +1,87 @@
+.contacts {
+    min-height: 595px;
+    padding: 108px 0 80px 0;
+    &__header {
+        color: #212121;
+        font-family: 'Raleway';
+        font-size: 36px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+        &:after {
+            content: '';
+            display: block;
+            margin: 0 auto;
+            margin-top: 30px;
+            width: 64px;
+            height: 2px;
+            background: #ff8b38;
+        }
+    }
+    &__subtitle {
+        color: #86878b;
+        font-family: "Open Sans";
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 30px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 80px;
+        input {
+            display: block;
+            width: 527px;
+            height: 31px;
+            box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16);
+            border: none;
+            border-bottom: 1px;
+            padding-left: 13px;
+            color: #bdbdbd;
+            font-family: "Open Sans";
+            font-size: 14px;
+            font-weight: 400;
+            &:nth-child(2) {
+                margin-top: 30px;
+            }
+            &:nth-child(3) {
+                margin-top: 30px;
+            }
+        }
+    }
+    &__submit {
+        display: block;
+        margin: 0 auto;
+        margin-top: 43px;
+        width: 148px;
+        height: 46px;
+        background-color: #ff9b51;
+        color: #ffffff;
+        font-family: "Open Sans Semibold";
+        font-size: 15px;
+        font-weight: 600;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+}
+
+#textmessage {
+    width: 527px;
+    height: 153px;
+    box-shadow: 0 1px 0 rgba(0, 0, 1, 0.16);
+    border: none;
+    border-bottom: 1px;
+    color: #bdbdbd;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 13px;
+    padding-top: 3px;
+}
+
+textarea {
+    padding: 0;
+}

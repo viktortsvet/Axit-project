@@ -1,0 +1,19 @@
+.footer {
+    min-height: 100px;
+    padding: 21px 0 15px 0;
+    background-color: #000000;
+    &__links {
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &__rights {
+        color: rgba(255, 255, 255, .50);
+        font-family: "Open Sans";
+        font-size: 12px;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 15px;
+    }
+}
