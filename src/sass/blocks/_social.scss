@@ -15,9 +15,7 @@
         margin-top: 12px;
     }
     &__wrapper {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        @include flex();
         img {
             width: 634px;
             height: 46px;

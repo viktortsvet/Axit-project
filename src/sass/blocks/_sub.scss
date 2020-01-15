@@ -28,7 +28,7 @@
             margin-top: 29px;
             width: 64px;
             height: 2px;
-            background-color: #ff9b51;
+            background-color: $main-color;
         }
     }
     &__descr {
@@ -42,7 +42,7 @@
         width: 40px;
         height: 40px;
         border-radius: 100%;
-        border: 1px solid #ff9b51;
+        border: 1px solid $main-color;
         img {
             display: block;
             margin: 0 auto;
@@ -67,12 +67,9 @@
     }
     &__block {
         width: 434px;
-        display: flex;
-        justify-content: space-between;
+        @include flex();
     }
     &__wrapper {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        @include flex();
     }
 }

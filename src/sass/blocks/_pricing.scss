@@ -16,7 +16,7 @@
             margin-top: 30px;
             width: 64px;
             height: 2px;
-            background: #ff8b38;
+            background: $main-color;
         }
     }
     &__subtitle {
@@ -29,8 +29,7 @@
     }
     &__items {
         margin-top: 115px;
-        display: flex;
-        justify-content: space-between;
+        @include flex();
     }
     &__item {
         width: 343px;
@@ -59,7 +58,7 @@
     &__orange {
         width: 100%;
         min-height: 7px;
-        background: #ff8b38;
+        background: $main-color;
         line-height: 37px;
         text-align: center;
         color: #ffffff;

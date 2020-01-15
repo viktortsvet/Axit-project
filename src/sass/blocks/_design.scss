@@ -42,8 +42,8 @@
         cursor: pointer;
         transition: 0.5s all;
         &:hover {
-            color: #ff8b38;
-            border-color: #ff8b38;
+            color: $main-color;
+            border-color: $main-color;
         }
     }
 }

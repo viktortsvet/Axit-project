@@ -1,0 +1,15 @@
+@mixin line() {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 64px;
+    height: 2px;
+    background: $main-color;
+}
+
+@mixin flex() {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

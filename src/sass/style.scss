@@ -1,3 +1,7 @@
+@import 'libs/bootstrap-grid.min';
+@import 'libs/variables';
+@import 'libs/mixins';
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,15 +12,15 @@
 }
 
 
-@import '../sass/navigation';
-@import '../sass/header';
-@import '../sass/social';
-@import '../sass/tabs';
-@import '../sass/sub';
-@import '../sass/standard';
-@import '../sass/awesome';
-@import '../sass/pricing';
-@import '../sass/customers';
-@import '../sass/design';
-@import '../sass/contacts';
-@import '../sass/footer';
+@import 'blocks/navigation';
+@import 'blocks/header';
+@import 'blocks/social';
+@import 'blocks/tabs';
+@import 'blocks/sub';
+@import 'blocks/standard';
+@import 'blocks/awesome';
+@import 'blocks/pricing';
+@import 'blocks/customers';
+@import 'blocks/design';
+@import 'blocks/contacts';
+@import 'blocks/footer';
